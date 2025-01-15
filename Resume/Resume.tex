@@ -19,42 +19,115 @@
 
 \renewcommand{\itemmarker}{{\small\textbullet}}
 \renewcommand{\ratingmarker}{\faCircle}
+\renewcommand{\cvDateMarker}{\faCalendar*[regular]}
+\renewcommand{\cvLocationMarker}{\faMapMarker*}
 
 \begin{document}
 \name{Kevin Uriel Manzano Rios}
 \personalinfo{
   \email{kmanzanor24@gmail.com}
   \phone{+(52) 56 1748 0590}
-  \location{México}
-  \linkedin{KevinUrielManzanoRios}
+  % \homepage{https://github.com/KevinUrielAdler}
   \github{KevinUrielAdler}
+  \linkedin{KevinUrielManzanoRios}
+  \location{México}
 }
 
 \makecvheader
 \AtBeginEnvironment{itemize}{\small}
 \columnratio{0.6}
 \begin{paracol}{2}
+
+  \cvsection{Experience}
+
+  \cvachievement{\faLaptopCode}{Python Developer and Natural Language Processing
+  at Rombo Works}{Led the information retrieval team in developing a RAG
+  (Retrieval-Augmented Generation) system to power an advanced chatbot
+  capable of answering natural language queries about the Official Gazette of the
+  Federation of Mexico. Implemented intelligent retrieval solutions with Python,
+  leveraging vector databases and natural language APIs, achieving
+  complete and structured responses, regardless of the query period or type.}
+  {Jan 2024 -- Oct 2024}
+  \divider
+
+  \cvachievement{\faChalkboardTeacher}{Teacher in High School}
+  {Developed and delivered C/C++, algorithms, and problem solving lessons to 60
+  students in the Algorithm Club and
+  taught how to use the OMIbot to students interested in the Mexican Olympiad
+  in Informatics (OMI).}{Aug 2020 -- Aug 2021}
+
+  \cvsection{Relevant Projects}
+
+  \cvachievementalt{\faBook}{Algorithm Learning Project}
+  {Developed {\href{https://github.com/KevinUrielAdler/Allearning}{\color{blue}"Allearning"\color{black}}},
+  a platform to teach competitive programming in C++. The application offers users
+  interactive lessons and exercises. To complement the experience and make it
+  accessible from any device, created a
+  {\href{https://github.com/KevinUrielAdler/Allearning-Web}{\color{blue}
+  web page\color{black}}} using .NET.}
+  \divider
+
+  \cvachievementalt{\faChild}{Conversational Virtual Assistant “ZAID}
+  {Created {\href{https://github.com/KevinUrielAdler/AvZ}{\color{blue}
+  ZAID\color{black}}}, a conversational virtual assistant using Python.
+  Implemented its ability to interact with the user in natural language and
+  perform various automated tasks. The system was designed to run in the
+  background and respond to voice commands intelligently.}
+
   \cvsection{Education}
   \cvevent{B.S. in Artificial Intelligence Engineering}{\href{https://en.wikipedia.org/wiki/ESCOM}{Superior School of Computer Sciences (\color{blue}ESCOM, IPN\color{black})}}{Jan 2022 -- Expected Dec 2025}{Av. Juan de Dios Bátiz 46188, CDMX}
   \begin{itemize}
     \item Intended major: Computer Science
   \end{itemize}
   \divider
+
   \cvevent{{\href{https://drive.google.com/file/d/1U6rwow80xCz0LrepnSFyvGuc5V7Hr1Id/view?usp=sharing}{\color{blue}Technical Career\color{black}}} in Informatics}{{\href{https://en.wikipedia.org/wiki/CECyT}{Center of Scientific and Technological Studies N°13 (\color{blue}IPN\color{black})}}}{Aug 2018 -- Aug 2021}{Calz Taxqueña 1620, CDMX}
   \begin{itemize}
     \item {\href{https://drive.google.com/file/d/1osz7QmjWUH6OcZ8AOrqVXEIJf-Pet3Q5/view?usp=sharing}{\color{blue}Overall Average\color{black}}}: 82 out of 100
   \end{itemize}
   \divider
+
   \cvevent{Python 3 and Azure courses}{}{2021}{}
   \begin{itemize}
-    \item Have taken an official Microsoft course to get certified in "{\href{https://drive.google.com/file/d/1iRQRtXmNAItFIWmfjOP1m_35C4pAPpTP/view?usp=sharing}{\color{blue}Microsoft Azure Fundamentals AZ 900\color{black}}}" and a Python course using python 3, SQLite3, and Flask.
+    \item Took an official Microsoft course to get certified in "{\href{https://drive.google.com/file/d/1iRQRtXmNAItFIWmfjOP1m_35C4pAPpTP/view?usp=sharing}{\color{blue}Microsoft Azure Fundamentals AZ 900\color{black}}}" and a Python course using python 3, SQLite3, and Flask.
   \end{itemize}
+
+  \switchcolumn
+
+  \cvsection{Tecnologies}
+  \cvtag{C/C++ (6 years)}
+  \cvtag{Python (5 Years)}\\
+  \cvtag{TensorFlow (2 years)}
+  \cvtag{PyTorch (1 year)}\\
+  \cvtag{C\# (3 years)}
+  \cvtag{Docker (1 year)}
+  \cvtag{Linux (2 years)}\\
+  \cvtag{HTML (3 years)}
+  \cvtag{MySQL/SQLite (4 years)}\\
+  \cvtag{Chroma DB (1 year)}
+  \cvtag{Git/GitHub (5 year)}
+
+  \cvsection{Aptitudes}
+  \cvtag{Teamwork}
+  \cvtag{Software Architecture}\\
+  \cvtag{Code Optimization}
+  \cvtag{Logical Approach}
+  \cvtag{Initiative}
+  \cvtag{Problem Solving}
+  \cvtag{Creativity}
+
+  \cvsection{Languages}
+  \begin{tabular}{l | ll}
+    \textbf{Spanish} & Native language\\
+    \textbf{English} & \href{https://drive.google.com/file/d/1gBM0AOUTz7h87_4FS4IsUOT8kphNWD5m/view?usp=sharing}{\color{blue}B2 - Upper Intermediate (CEFR)\color{black}}\\
+    \textbf{German} & A2 - Elementary (CEFR)
+  \end{tabular}
 
   \cvsection{Awards and Contests}
   \cvevent{{\href{https://drive.google.com/file/d/1a9Y24AIVQ5aGS7OPvPD1qg4wDesXFmRi/view?usp=sharing}{\color{blue}Second Place\color{black}}} (State competition)}{Mexican Olympiad in Informatics ({\href{https://www.olimpiadadeinformatica.org.mx/OMI/OMI/InfoGeneral/Que_es_la_OMI.aspx}{\color{blue}OMI\color{black}}})}{}{}
   \begin{itemize}
-    \item Have completed the course given by the Center for Educational Technological Innovation (CITE) on competitive programming in C++.
-    \item Have participated in the Mexican Olympiad in Informatics (OMI) and obtained the silver medal at the state level.
+    \item Completed a preparatory course given by the Center for Educational Technological Innovation (CITE) on competitive programming in C++.
+    \item Participated in the Mexican Olympiad in Informatics (OMI) and won the silver medal at the state level.
   \end{itemize}
   \divider
   \cvevent{Robotics Contests}{Robot War, MakeX}{}{}
@@ -66,35 +139,6 @@
   \begin{itemize}
     \item Have participated in the ICPC in 2020, {\href{https://drive.google.com/file/d/1OwYn_YItOoTw_DI-Dajlrwc_oC57Rv6G/view?usp=sharing}{\color{blue}our team\color{black}}} reached the top 100 in the finals.
   \end{itemize}
-
-  \switchcolumn
-  \cvsection{Experience}
-
-  \cvachievement{\faUsers}{Teacher in High School}{Have taught C/C++, algorithms, and problem solving to 60 students (480 hours) and taught how to use the OMIbot to students interested in the OMI.}
-  \divider
-
-  \cvachievement{\faBook}{Algorithm Learning Project}
-  {As a final project in the high school have made a {\href{https://github.com/KevinUrielAdler/Allearning}{\color{blue}program\color{black}}} called "Allearning" to teach competitive programming in C++, plus a {\href{https://github.com/KevinUrielAdler/Allearning-Web}{\color{blue}web page\color{black}}} as a complement.}
-  \divider
-
-  \cvachievement{\faLaptopCode}{Calculator of Max and Min}{As a project in the second semester of university have created a {\href{https://github.com/KevinUrielAdler/Maximos-y-Minimos}{\color{blue}program\color{black}}} to calculate max and min of scalar functions with a vector variable using SymPy.}
-
-  \cvsection{TECHNOLOGIES}
-  \cvtag{C/C++ (4 years)}
-  \cvtag{C\# (3 years)}\\
-  \cvtag{Python (3 Years)}
-  \cvtag{Git/GitHub (2 year)}\\
-  \cvtag{MySQL (2 year)}
-  \cvtag{LaTeX (1 year)}
-
-  \cvsection{Aptitudes}
-  \cvtag{Teamwork}
-  \cvtag{Software Architecture}\\
-  \cvtag{Code Optimization}
-  \cvtag{Logical Approach}
-  \cvtag{Initiative}
-  \cvtag{Problem Solving}
-  \cvtag{Creativity}
 
   \newpage
 \end{paracol}
